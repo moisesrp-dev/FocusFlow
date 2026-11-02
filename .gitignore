@@ -1,0 +1,59 @@
+
+# ==========================================
+# FocusFlow — Swift / SwiftUI / Xcode
+# ==========================================
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcarchive
+*.xcresult
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.app
+*.appex
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/xcuserdata/
+.swiftpm/xcode/package.xcworkspace/
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+
+# Code coverage
+*.profdata
+*.profraw
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+Secrets.xcconfig
+*.p12
+*.mobileprovision
+*.pem
+
+# Optional local development tools
+.vscode/
+.idea/
